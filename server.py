@@ -4,7 +4,7 @@ import api
 import urllib.parse
 
 HOST = '127.0.0.1'
-PORT = 80
+PORT = 8000
 
 class CustomHTTPHandler(BaseHTTPRequestHandler):
     def do_GET(self):
